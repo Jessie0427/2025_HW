@@ -46,7 +46,6 @@ section{
 }
 img {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 100px;
 }
 img:hover {
   transform: scale(1.03);
@@ -102,3 +101,11 @@ img:hover {
     margin: 0;
     color: #555;
   }
+
+.carousel-img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
